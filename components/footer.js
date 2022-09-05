@@ -28,35 +28,10 @@ const Footer = () => {
                     <h3>Address</h3>
                   </div>
                   <ul className="contact-list">
-                    <li>888 999 0000</li>
-                    <li>needhelp@opins.com</li>
+                    <li>082349377390</li>
+                    <li>Muhhisymat24@gmail.com</li>
                     <li>
-                      855 road, broklyn street <br />
-                      new york 600
-                    </li>
-                  </ul>
-                </div>
-              </Col>
-              <Col lg={2} md={6} sm={12}>
-                <div className="footer-widget">
-                  <div className="widget-title">
-                    <h3>Explore</h3>
-                  </div>
-                  <ul className="links-list">
-                    <li>
-                      <a href="#">About</a>
-                    </li>
-                    <li>
-                      <a href="#">Our Team</a>
-                    </li>
-                    <li>
-                      <a href="#">Features</a>
-                    </li>
-                    <li>
-                      <a href="#">Blog</a>
-                    </li>
-                    <li>
-                      <a href="#">How It Works</a>
+                    JL. Mangga Tiga Blok A1 No 22
                     </li>
                   </ul>
                 </div>
