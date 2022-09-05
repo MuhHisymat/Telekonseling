@@ -5,19 +5,13 @@ import moc from "../assets/images/banner-moc-1-2.png";
 const bannertwo = () => {
   return (
     <section className="banner-style-one home-page-two" id="banner">
-      <span className="bubble-1"></span>
-      <span className="bubble-2"></span>
-      <span className="bubble-3"></span>
-      <span className="bubble-4"></span>
-      <span className="bubble-5"></span>
-      <span className="bubble-6"></span>
       <img src={moc} className="banner-mock" alt="Awesome Image" />
       <Container>
         <Row>
           <Col xl={6} lg={8}>
             <div className="content-block">
               <h3>
-                Best Mobile App <br /> For Psychicology <br /> Consulting.
+                Best Mobile App <br /> For Psychology <br /> Consulting.
               </h3>
               <p>
                 Excepteur fugiat nostrud enim elit irure velit cillum <br />incididunt
