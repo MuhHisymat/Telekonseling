@@ -407,6 +407,7 @@ hr.style-one {
 
 .site-header.home-page-two .header-navigation.stricky-fixed {
   background-image: linear-gradient(-145deg, #320b82 0%, #9c33c3 100%);
+  /* background color navbar */
   box-shadow: 0px 10px 60px 0px rgba(0, 0, 0, 0.15);
 }
 .site-header.home-page-two .header-navigation ul.navigation-box > li > a {
@@ -444,28 +445,7 @@ hr.style-one {
   padding-bottom: 220px;
   background: #fff url(../images/banner-bg-1-1.png) top right no-repeat;
 }
-.banner-style-one:before,
-.banner-style-one:after {
-  content: "";
-  width: 318px;
-  height: 318px;
-  border-radius: 50%;
-  border: 43px solid;
-  position: absolute;
-  animation: BannercircleRotate 5s ease-in-out 0s infinite alternate;
-}
-@keyframes BannercircleRotate {
-  0% {
-    -webkit-transform: rotate(0);
-    transform: rotate(0);
-    opacity: 1;
-  }
-  100% {
-    -webkit-transform: rotate(45deg);
-    transform: rotate(45deg);
-    opacity: 0.5;
-  }
-}
+
 .banner-style-one:before {
   border-color: #fff3fd;
   bottom: 10%;
@@ -545,8 +525,8 @@ hr.style-one {
   left: 40%;
 }
 .banner-style-one .bubble-4 {
-  background-color: #ddffe4;
-  border-color: #93ff6d;
+  background-color: rebeccapurple;
+  border-color: rebeccapurple;
   top: 10px;
   right: 40%;
 }
@@ -630,7 +610,7 @@ hr.style-one {
 }
 .banner-style-one.home-page-two {
   padding-bottom: 277px;
-  background: #fff url(../images/banner-bg-1-2.png) top right no-repeat;
+  background: #fff url(../images/banner.jpeg) top right no-repeat;
   background-size: cover;
   margin-bottom: 60px;
 }
